@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span style="flex: auto"></span>
+  <button mat-button routerLink="/admin/customers">Customers</button>
+  <button mat-button routerLink="/admin/accounts">Accounts</button>
+  <span *ngIf="authService.isAuthenticated==true">
+    {{ this.authService.username }}
+  </span>
+  <button mat-button (click)="handleLogout()" mat-raised-button color="accent">Logout</button>
+
+
+</mat-toolbar>
