@@ -19,3 +19,7 @@ Teste de web services Restful :
 <img src="screenshots/img_2.png" alt="">
 <p>Afficher tous les comptes  : </p>
 <img src="screenshots/img_3.png" alt="">
+<p>Base de données : </p>
+<img src="screenshots/img_4.png" alt="">
+<img src="screenshots/img_5.png" alt="">
+<img src="screenshots/img_6.png" alt="">
